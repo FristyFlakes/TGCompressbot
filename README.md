@@ -2,13 +2,13 @@
 
 ## Video Compressor Bot
 
-## HOW TO DEPLOY YOUTUBE TUTORIAL
+## Bot by Bhardwajji 
 
-<a href="https://youtu.be/YEwAN3iTGyE"><img src="https://img.shields.io/badge/How%20To-Deploy-red.svg?logo=Youtube"></a>
+
 
 #### The Easy Way
 
-  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Jijinr/VidComBot)
+  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/bhardwajjEE/TGcompressbot)
 
 #### The Hard Way
 
@@ -45,9 +45,9 @@ cancel - Stop the process.
 log - Get log
 help - To know about bot
 ```
-## CREDITS
 
-[@SpEcHide](https://github.com/spechide/publicleech)
+
+
 
 #### LICENSE
 - GPLv3
