@@ -28,7 +28,7 @@ class Command:
     )
     CANCEL = get_config(
         "COMMAND_CANCEL",
-        "cancel"
+        "cancelall"
     )
     STATUS = get_config(
         "COMMAND_STATUS",
