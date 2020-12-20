@@ -7,7 +7,7 @@ from bot.localisation import Localisation
 
 async def new_join_f(client, message):
     # delete all other messages, except for AUTH_USERS
-    await message.delete(revoke=True)
+    #await message.delete(revoke=True)
     # reply the correct CHAT ID,
     # and LEAVE the chat
     chat_type = message.chat.type
