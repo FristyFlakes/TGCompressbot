@@ -4,6 +4,8 @@
 
 
 from bot.localisation import Localisation
+from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
+
 
 async def new_join_f(client, message):
     # delete all other messages, except for AUTH_USERS
@@ -19,6 +21,21 @@ async def new_join_f(client, message):
         )
         # leave chat
         await message.chat.leave()
+
+async def start_message(bot, message):
+    await message.reply(
+        text=f"**Hi, Sir!** \n\nThis is **Bestz Video Compressor**.",
+        reply_markup=InlineKeyboardMarkup(
+            [
+                [
+                    InlineKeyboardButton('Bots Updates Channel', url='https://t.me/naijabestz')
+                ],
+                [
+                    InlineKeyboardButton('Support Group', url='https://t.me/naija_bestz')
+                ]
+            ]
+        )
+    )
 
 
 async def help_message_f(client, message):
