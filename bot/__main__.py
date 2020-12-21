@@ -91,6 +91,13 @@ if __name__ == "__main__" :
         filters=Filters.command([Command.HELP]) #& Filters.chat(chats=AUTH_USERS)
     )
     app.add_handler(help_text_handler)
+
+    # Start command
+    start_text_handler = MessageHandler(
+        start_message,
+        filters=Filters.command(["start"])
+    )
+    app.add_handler(help_text_handler)
     
     # Telegram command to upload LOG files
     upload_log_f_handler = MessageHandler(
